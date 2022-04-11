@@ -1,9 +1,10 @@
 # DeiT: Data-efficient Image Transformers
 
 This repository contains PyTorch evaluation code, training code and pretrained models for the following projects:
-* DeiT (Data-Efficient Image Transformers) 
-* [CaiT](README_cait.md) (Going deeper with Image Transformers)
+* DeiT (Data-Efficient Image Transformers), ICML 2021 
+* [CaiT](README_cait.md) (Going deeper with Image Transformers), ICCV 2021 (Oral)
 * [ResMLP](README_resmlp.md) (ResMLP: Feedforward networks for image classification with data-efficient training)
+* [PatchConvnet](README_patchconvnet.md) (Augmenting Convolutional networks with attention-based aggregation)
 
 They obtain competitive tradeoffs in terms of speed / precision:
 
@@ -14,11 +15,14 @@ For details see [Training data-efficient image transformers & distillation throu
 If you use this code for a paper please cite:
 
 ```
-@article{touvron2020deit,
-  title={Training data-efficient image transformers & distillation through attention},
-  author={Hugo Touvron and Matthieu Cord and Matthijs Douze and Francisco Massa and Alexandre Sablayrolles and Herv\'e J\'egou},
-  journal={arXiv preprint arXiv:2012.12877},
-  year={2020}
+@InProceedings{pmlr-v139-touvron21a,
+  title =     {Training data-efficient image transformers &amp; distillation through attention},
+  author =    {Touvron, Hugo and Cord, Matthieu and Douze, Matthijs and Massa, Francisco and Sablayrolles, Alexandre and Jegou, Herve},
+  booktitle = {International Conference on Machine Learning},
+  pages =     {10347--10357},
+  year =      {2021},
+  volume =    {139},
+  month =     {July}
 }
 ```
 
